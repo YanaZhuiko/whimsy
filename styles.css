@@ -414,3 +414,26 @@ footer {
 .order-form button:hover {
     background: #333;
 }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .top-bar {
+  font-size: calc(100% * (992 / 1200));
+ }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .top-bar {
+  font-size: calc(100% * (768 / 1200));
+ }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .top-bar {
+  font-size: calc(100% * (576  / 1200));
+ }
+}
+
+@media screen and (max-width: 575px) {
+   .top-bar {
+  font-size: calc(100% * (575  / 1200));
+ }
+}
