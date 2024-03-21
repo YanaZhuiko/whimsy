@@ -481,3 +481,36 @@ footer {
 .cart-icon img {
     font-size: 0.45rem;
 }
+    @media only screen and (max-width: 575px) {
+.logo-container img {
+    width: 120px;
+    height: auto;
+}
+.card {
+    width: calc(39% - 5px);
+}
+ .cart-icon img {
+    width: 35px;
+    height: auto;
+    padding-right: 40px;
+}
+.menu ul { flex-direction: column;
+ }
+ .menu ul li {border-bottom: 1px solid #ccc;
+ }
+}
+
+/* Для устройств среднего размера (планшеты) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+ .card {
+    width: calc(45% - 10px);
+}
+ .cart-icon img {
+    width: 40px;
+    height: auto;
+    padding-right: 70px;
+ .menu ul { flex-direction: column;
+ }
+ .menu ul li {border-bottom: 1px solid #ccc;
+ }
+}
